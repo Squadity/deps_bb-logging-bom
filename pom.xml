@@ -15,23 +15,23 @@
 
 	<properties>
 		<!-- Logging dependencies -->
-		<slf4j.version>1.7.26</slf4j.version>
+		<slf4j.version>1.7.32</slf4j.version>
 		<slf4j-api.version>${slf4j.version}</slf4j-api.version>
 		<!-- bindings to implementations -->
 		<slf4j-jdk14.version>${slf4j.version}</slf4j-jdk14.version>
 		<slf4j-jcl.version>${slf4j.version}</slf4j-jcl.version>
 		<slf4j-log4j12.version>${slf4j.version}</slf4j-log4j12.version>
 		<!-- implementations -->
-		<logback-classic.version>1.2.3</logback-classic.version>
+		<logback-classic.version>1.2.7</logback-classic.version>
 		<commons-logging.version>1.2</commons-logging.version>
 		<log4j.version>1.2.17</log4j.version>
-		<log4j2-api.version>2.11.2</log4j2-api.version>
+		<log4j2-api.version>2.16.0</log4j2-api.version>
 		<log4j2-core.version>${log4j2-api.version}</log4j2-core.version>
 		<!-- bridges to slf4j -->
 		<jul-to-slf4j.version>${slf4j.version}</jul-to-slf4j.version>
 		<jcl-over-slf4j.version>${slf4j.version}</jcl-over-slf4j.version>
 		<log4j-over-slf4j.version>${slf4j.version}</log4j-over-slf4j.version>  <!-- log4j 1 -->
-		<log4j-to-slf4j.version>${log4j2-api.version}</log4j-to-slf4j.version> <!-- log4 2 -->
+		<log4j-to-slf4j.version>${log4j2-api.version}</log4j-to-slf4j.version> <!-- log4j 2 -->
 	</properties>
 
 	<dependencyManagement>
